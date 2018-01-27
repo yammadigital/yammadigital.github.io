@@ -999,23 +999,12 @@ header {
 
 .team {
     position: relative;
-    background-color: #F4F4F4;
     padding: 40px 20px;
     margin: 15px 0px;
+    background-color: #F4F4F4;
+
 }
 
-.team::after {
-    content: "";
-    background-color: #1C1D21;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 0%;
-    z-index: 1;
-    -webkit-transition: 0.2s height;
-    transition: 0.2s height;
-}
 
 .team:hover:after {
     height: 100%;
@@ -1028,7 +1017,8 @@ header {
 }
 
 .team-img>img {
-  width: 100%;
+  width: 50%;
+  margin: auto;
 }
 
 .team .overlay {
@@ -1043,9 +1033,7 @@ header {
     transition: 0.2s opacity;
 }
 
-.team:hover .overlay {
-    opacity: 0.8;
-}
+
 
 .team .team-content {
     text-align: center;
@@ -1066,13 +1054,7 @@ header {
     transition: 0.2s color;
 }
 
-.team:hover .team-content h3 {
-    color: #FFF;
-}
 
-.team:hover .team-content span {
-    color: #3DB0B0;
-}
 
 .team .team-social {
     position: absolute;
@@ -1090,10 +1072,6 @@ header {
     text-align: center;
     background-color: #3DB0B0;
     color: #FFF;
-}
-
-.team:hover .team-social {
-    opacity: 1;
 }
 
 
