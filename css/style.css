@@ -789,6 +789,7 @@ header {
     padding: 40px 20px 40px 70px;
     margin: 15px 0px;
     border: 1px solid #EEE;
+    height:220px;
 }
 
 .service i {
@@ -1049,7 +1050,7 @@ header {
 
 .team .team-content span {
     font-size: 14px;
-    text-transform: uppercase;
+    color:black;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
