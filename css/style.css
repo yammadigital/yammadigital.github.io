@@ -94,6 +94,44 @@ a:hover, a:focus {
     color: #3DB0B0;
 }
 
+#section02 {
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 100px;
+}
+
+#section02 a {
+  padding-top: 60px;
+}
+#section02 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
 .main-color {
     color: #3DB0B0;
 }
@@ -134,6 +172,10 @@ ul, ol {
     padding-bottom: 60px;
 }
 
+.home-down {
+    font-size: 54px;
+    color: white;
+}
 
 /* --  background section  -- */
 

@@ -24,7 +24,7 @@
 		}, 600);
 	});
 
-	$(".learnmore").on('click', function(e) {
+	$("#home-down-arrow").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
